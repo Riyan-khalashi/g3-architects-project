@@ -10,8 +10,17 @@
 
 .display-flex{
   display: flex;
+  align-items: center;
 }
-
+.btn-primary{
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
 /* heaser related style   */
 
 
@@ -39,3 +48,42 @@
 .gray-2{
   color: rgba(114, 114, 114, 1);
 }
+.bg-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar , .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.banner-content{
+  max-width:861px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight: 800;
+  font-size: 4rem;
+
+
+}
+.banner-image{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.banner-description{
+  margin-bottom: 20px;
+}
+/* responsive media query */ 
+  
+   @media screen and (max-width:576px) {
+    .nav-links, .navbar{
+      flex-direction: column;
+    }
+    
+   }
