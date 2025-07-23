@@ -6,3 +6,36 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+
+.display-flex{
+  display: flex;
+}
+
+/* heaser related style   */
+
+
+
+
+
+
+/* nacbar related style  */
+.navbar{
+  justify-content: space-between;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+}
+/* dark-o2 */
+.gray-one{
+  color: rgba(66, 66, 66, 1);
+}
+/* dark-03 */
+.gray-2{
+  color: rgba(114, 114, 114, 1);
+}
